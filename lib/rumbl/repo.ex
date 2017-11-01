@@ -13,7 +13,7 @@ defmodule Rumbl.Repo do
     [
       %Rumbl.User{id: "1", name: "Jose", username: "josevalim", password: "elixir"},
       %Rumbl.User{id: "2", name: "Ian", username: "ianzhang", password: "mark"},
-      %Rumbl.User{id: "3", name: "Jose", username: "chrismccord", password: "phx"},
+      %Rumbl.User{id: "3", name: "Chris", username: "chrismccord", password: "phx"},
     ]
   end
 
@@ -28,5 +28,5 @@ defmodule Rumbl.Repo do
       Enum.all?(params, fn {key, val} -> Map.get(map, key) == val end)
     end
   end
-  
+
 end
