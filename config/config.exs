@@ -12,7 +12,7 @@ config :rumbl,
 # Configures the endpoint
 config :rumbl, RumblWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "voBc/59xc/B1o4aokAC1uYF695W6l3UrtUFMDUKmO2D/4pizKihoL7TC6BY/D93L",
+  secret_key_base: "3JzuH+fVVkxEcan8x+immBDsCAF/cXEUigqYCITQwFNvPMirn9Da39s0YJAtXPyH",
   render_errors: [view: RumblWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Rumbl.PubSub,
            adapter: Phoenix.PubSub.PG2]
