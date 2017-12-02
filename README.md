@@ -18,3 +18,6 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
+## How to run a local Postgres DB with docker
+`docker run --name mypostgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres:9.6`
